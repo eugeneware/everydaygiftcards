@@ -2,6 +2,8 @@ var expect = require('expect.js'),
     edgc = require('..');
 
 describe('everydaygiftcards', function() {
+  this.timeout(10000);
+
   it('should be able to fetch the summary', function(done) {
     var auth = {
       CardNumber: '6280003090982277246',
