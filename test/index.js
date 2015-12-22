@@ -9,7 +9,6 @@ describe('everydaygiftcards', function() {
     };
 
     edgc(auth, function (err, data) {
-      console.log(data);
       if (err) return done(err);
       expect(data.summary).to.eql(
         { 'Card Number': '6280003090982277246',
