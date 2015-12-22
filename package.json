@@ -1,0 +1,33 @@
+{
+  "name": "everydaygiftcards",
+  "version": "1.0.0",
+  "description": "Fetch info about your Woolworths Every Day Gift Card balance and transaction history",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/everydaygiftcards"
+  },
+  "keywords": [
+    "woolworths",
+    "everyday",
+    "everydaygiftcards",
+    "giftcards",
+    "xero"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/everydaygiftcards/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.0",
+    "mocha": "~2.1.0"
+  }
+}
