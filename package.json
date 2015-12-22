@@ -1,6 +1,6 @@
 {
   "name": "everydaygiftcards",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fetch info about your Woolworths Every Day Gift Card balance and transaction history",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
   "bugs": {
     "url": "https://github.com/eugeneware/everydaygiftcards/issues"
   },
-  "engines" : {
-    "npm" : "> 2.x"
+  "engines": {
+    "npm": "> 2.x"
   },
   "dependencies": {
     "cheerio": "^0.19.0",
